@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Weather Apps</title>
+</head>
+
+<body id="docBody">
+    <h2 class="mt-5 headingStyle text-center">Weather Apps</h2>
+
+    <div class="weather_apps_container">
+        <div class="weather_search_wrapper d-flex">
+            <div class="left_search_inp">
+                <input id="cityInp" type="text" placeholder="Search your location">
+            </div>
+            <div class="right_search_btn">
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+        <div class="weather_info_wrapper">
+            <img id="weatherIcon" src="./img/rain.png" alt="">
+            <h1 id="temp">0°c</h1>
+            <h4 id="cityName">Bangladesh</h4>
+
+            <div class="weather_details_wrapper d-flex justify-content-between mt-3">
+
+                <div class="left_details">
+                    <img src="./img/humidity.png" alt="">
+                    <h1 id="humidity">0</h1>
+                    <h2>Humidity</h2>
+                </div>
+                <div class="left_details">
+                    <img src="./img/wind.png" alt="">
+                    <h1 id="wind">0 km/h</h1>
+                    <h2>Wind Speed</h2>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
